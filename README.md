@@ -1,4 +1,4 @@
-I decided to recreate my online portfolio. This portfolio will take on a very minimalist design since I want to get back to Swift and Objective C ASAP. I simply grew tired of my old online portfolio. I also felt like a hack with my old portfolio since it was like 90% bootstrapped. This portfolio is 100% my own work using React and some ES6. I am also using Firebase to host this project.
+I decided to recreate my online portfolio. This portfolio will take on a very minimalist design since I want to get back to Swift and Objective C ASAP. I will continue to add to this small project since I am just pumping through the bare bones at the moment. I simply grew tired of my old online portfolio. I also felt like a hack with my old portfolio since it was like 90% bootstrapped. This portfolio is 100% my own work using React and some ES6. I am also using Firebase to host this project.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
