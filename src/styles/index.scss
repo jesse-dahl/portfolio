@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Sabon;
+  src: url('../fonts/SabonLTStd-Bold.otf');
+}
+
+@font-face {
+    font-family: IBMPlex;
+    src: url('../fonts/IBMPlexMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.header-item {
+  font-family: Sabon;
+}
+
+.main-paragraph {
+  font-size: 38px !important;
+}
+
+.paragraph {
+  font-family: IBMPlex;
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.social {
+  width: 50px;
+}
+
+.AboutText {
+  font-family: Sabon;
+}
