@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import About from './About';
+import Skills from './Skills';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 import Background from '../images/mountain-sillhouette.jpg';
@@ -116,6 +117,9 @@ class Home extends Component {
         </HomePageBackground>
 
         <About />
+
+        <Skills />
+
       </MainPageWrapper >
     )
   }
