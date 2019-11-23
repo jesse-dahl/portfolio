@@ -5,7 +5,7 @@ const HeaderTitle = (props) => {
 
   const SectionHeader = styled.h2`
     margin: 0;
-    font-size: 45;
+    font-size: 45px;
     text-align: center;
 
     @media screen and (max-width: 960px){

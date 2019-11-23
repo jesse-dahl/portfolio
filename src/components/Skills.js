@@ -10,7 +10,9 @@ const Skills = () => {
     );
   }
 
-  const SkillsWrapper = styled.div``;
+  const SkillsWrapper = styled.div`
+  
+  `;
 
   const SkillsTitleWrapper = styled.div`
     margin: 10px;
@@ -86,6 +88,11 @@ const Skills = () => {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media screen and (max-width: 960px){
+      height: 100vh;
+      min-height: 100vh;
+    }
   `;
 
   const SkillsDescWrapper = styled.div`

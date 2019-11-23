@@ -17,6 +17,11 @@ const About = () => {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media screen and (max-width: 960px){
+      height: 100vh;
+      min-height: 100vh;
+    }
   `;
 
   const AboutContentWrapper = styled.div`
