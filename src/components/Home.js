@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import Header from './Header';
 import About from './About';
 import Skills from './Skills';
@@ -9,7 +10,7 @@ import Linkedin from '../images/linkedin-white.png';
 import Email from '../images/email-white.png';
 import Github from '../images/github-white.png';
 import Resume from '../images/contract.png';
-import ResumeFile from '../documents/Jesse_Dahl_Resume.pdf';
+import ResumeFile from '../documents/resume.pdf';
 
 const DescriptionItems = (props) => {
   return (
@@ -41,6 +42,8 @@ const MainPageContent = styled.div`
 `;
 
 const HomePageBackground = styled.div`
+  background-image: url(${Background});
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   background-size: cover;
@@ -48,10 +51,16 @@ const HomePageBackground = styled.div`
   background-position: center;
   opacity: 0.90;
 
+  @media only screen and (max-width: 960px) {
+    background-attachment: scroll;
+  }
 `;
 
 const MainContentWrapper = styled.div`
   display: block;
+  @media only screen and (max-width: 960px) {
+    padding: 20% 0 50% 0;
+  }
 `;
 
 const FullDescriptionWrapper = styled.div`
@@ -83,7 +92,7 @@ class Home extends Component {
 
     return (
       <MainPageWrapper>
-        <HomePageBackground style={{ backgroundImage: `url(${Background})`, backgroundAttachment: 'fixed' }}>
+        <HomePageBackground>
           <MainPageContent>
             <Fade duration={3000}>
               <Header />
@@ -96,7 +105,7 @@ class Home extends Component {
                   <FullDescriptionContent>
                     <DescriptionItems paraNum='paragraph main-paragraph' text='Welcome To My Website' />
                     <DescriptionItems paraNum='paragraph' text='I am a Web/App Developer and designer located in Bozeman, MT' />
-                    <DescriptionItems paraNum='paragraph' text='Click around to look at the projects I have worked on, find out more about me, or read my resume :)' />
+                    <DescriptionItems paraNum='paragraph' text='Click on one of the buttons below to view the projects I have worked on, read my resume, or contact me. You can also scroll down to learn a little more about me' />
                   </FullDescriptionContent>
                 </FullDescriptionWrapper>
 

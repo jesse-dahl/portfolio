@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderTitle from './HeaderTitle';
 import styled from 'styled-components';
+//import Trees from '../images/snowy-trees.jpg'
 
 const About = () => {
 
@@ -11,7 +12,11 @@ const About = () => {
   }
 
   const MainAboutContent = styled.section`
-    background: #2B2B2B;
+    background: #1E1E1F;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   `;
 
   const AboutContentWrapper = styled.div`
@@ -19,6 +24,10 @@ const About = () => {
     width: 95%;
     max-width: 1020px;
     margin: 0 auto;
+
+    @media screen and (max-width: 960px){
+      padding: 0;
+    }
   `;
 
   const AboutMeWrapper = styled.div`
@@ -31,11 +40,16 @@ const About = () => {
     line-height: 30px;
     text-align: left;
     font-size: 20px;
+
+    @media screen and (max-width: 960px){
+      font-size: 1.5em;
+      line-height: 40px;
+    }
   `;
 
   return (
     <MainAboutContent>
-      <HeaderTitle title="About Me" color="white" />
+      <HeaderTitle title="About Me" color="#f2f2f2" />
 
       <AboutContentWrapper>
 
