@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 import Header from './Header';
 import About from './About';
 import Skills from './Skills';
@@ -104,7 +103,7 @@ class Home extends Component {
                 <FullDescriptionWrapper>
                   <FullDescriptionContent>
                     <DescriptionItems paraNum='paragraph main-paragraph' text='Welcome To My Website' />
-                    <DescriptionItems paraNum='paragraph' text='I am a Web/App Developer and designer located in Bozeman, MT' />
+                    <DescriptionItems paraNum='paragraph' text='I am a Software and Web/App Developer located in Bozeman, MT' />
                     <DescriptionItems paraNum='paragraph' text='Click on one of the buttons below to view the projects I have worked on, read my resume, or contact me. You can also scroll down to learn a little more about me' />
                   </FullDescriptionContent>
                 </FullDescriptionWrapper>

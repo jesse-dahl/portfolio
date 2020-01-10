@@ -156,6 +156,8 @@ const Skills = () => {
                 <li>Firebase</li>
                 <li>GCP</li>
                 <li>SQL</li>
+                <li>MongoDB</li>
+                <li>NodeJS</li>
                 <li>GraphQL</li>
               </ul>}
             />
