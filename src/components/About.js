@@ -1,7 +1,6 @@
 import React from 'react';
 import HeaderTitle from './HeaderTitle';
 import styled from 'styled-components';
-//import Trees from '../images/snowy-trees.jpg'
 
 const About = () => {
 

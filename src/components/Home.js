@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+import Image from 'react-image';
 import Header from './Header';
 import About from './About';
 import Skills from './Skills';
@@ -9,7 +11,6 @@ import Linkedin from '../images/linkedin-white.png';
 import Email from '../images/email-white.png';
 import Github from '../images/github-white.png';
 import Resume from '../images/contract.png';
-import ResumeFile from '../documents/resume.pdf';
 
 const DescriptionItems = (props) => {
   return (
@@ -112,7 +113,9 @@ class Home extends Component {
                   <SocialContent>
                     <SocialLinks target='https://github.com/jesse-dahl' source={Github} alt='github' />
                     <SocialLinks target='https://www.linkedin.com/in/jesse-dahl-777437160/' source={Linkedin} alt='linkedin' />
-                    <SocialLinks target={ResumeFile} source={Resume} alt='resume' />
+                    <Link to="/resume">
+                      <Image src={Resume} alt="img" style={{ width: "40px" }} />
+                    </Link>
                     <SocialLinks target='mailto:jddahl199@gmail.com' source={Email} alt='email' />
                   </SocialContent>
                 </SocialWrapper>
