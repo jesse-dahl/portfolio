@@ -18,8 +18,7 @@ const About = () => {
     justify-content: center;
 
     @media screen and (max-width: 960px){
-      height: 100vh;
-      min-height: 100vh;
+      height: fit-content;
     }
   `;
 

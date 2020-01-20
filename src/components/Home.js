@@ -114,7 +114,7 @@ class Home extends Component {
                     <SocialLinks target='https://github.com/jesse-dahl' source={Github} alt='github' />
                     <SocialLinks target='https://www.linkedin.com/in/jesse-dahl-777437160/' source={Linkedin} alt='linkedin' />
                     <Link to="/resume">
-                      <Image src={Resume} alt="img" style={{ width: "40px" }} />
+                      <Image className="social" src={Resume} alt="img" />
                     </Link>
                     <SocialLinks target='mailto:jddahl199@gmail.com' source={Email} alt='email' />
                   </SocialContent>
