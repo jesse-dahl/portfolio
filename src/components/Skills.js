@@ -123,7 +123,6 @@ const Skills = () => {
       <SkillsDescWrapper>
         <SkillsDescContent>
           <SkillsDesc>Below are the languages, frameworks, and areas where I feel the most comfortable.</SkillsDesc>
-          <SkillsDesc>I am also more than comfortable to pick up a new language. After all, learning new material is what keeps me invested in programming</SkillsDesc>
         </SkillsDescContent>
       </SkillsDescWrapper>
 
@@ -133,12 +132,11 @@ const Skills = () => {
           skill={
             <SkillsInfo skills=
               {<ul className="List">
-                <li>Java</li>
                 <li>JavaScript</li>
                 <li>Python</li>
-                <li>Swift</li>
-                <li>Dart</li>
+                <li>Java</li>
                 <li>C</li>
+                <li>Dart</li>
               </ul>}
             />
           }
@@ -152,13 +150,13 @@ const Skills = () => {
             <SkillsInfo skills=
               {<ul className="List">
                 <li>React</li>
-                <li>Flutter</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Docker</li>
                 <li>Firebase</li>
                 <li>GCP</li>
-                <li>SQL</li>
-                <li>MongoDB</li>
-                <li>NodeJS</li>
-                <li>GraphQL</li>
               </ul>}
             />
           }
